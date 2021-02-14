@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar of events</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" defer></script>
+    <script src="./js/jquery.magnific-popup.min.js" defer></script>
+    <script src="./js/Event.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+</head>
+
+<body>
+    <div class="head">
+        <h1>Calendar</h1>
+        <div class="select">
+            <select>
+                <option>
+                    All meetings
+                </option>
+                <option>
+                    Alexsander
+                </option>
+                <option>
+                    Dmitry
+                </option>
+                <option>
+                    Ivan
+                </option>
+            </select>
+            <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+            <button><a href="#test-popup" class="open-popup-link">New Event+</a></button>
+            <div id="test-popup" class="white-popup mfp-hide">
+                <form class="form">
+                    <div class="text">
+                        <p>Name of the event:</p>
+                        <p>Participants:</p>
+                        <p>Day:</p>
+                        <p>Time:</p>
+                    </div>
+                    <div class="select">
+                        <input type="text" class="input" placeholder="Name of the event" value="">
+                        <select class="Names">
+                            <option class="AllMeet">
+                                All meetings
+                            </option>
+                            <option class="Alex">
+                                Alexsander
+                            </option>
+                            <option class="Dmitry">
+                                Dmitry
+                            </option>
+                            <option class="Ivan">
+                                Ivan
+                            </option>
+                        </select>
+                        <select class="Days">
+                            <option class="Mon">
+                                Monday
+                            </option>
+                            <option class="Tue">
+                                Tuesday
+                            </option>
+                            <option class="Wed">
+                                Wednesday
+                            </option>
+                            <option class="Thu">
+                                Thursday
+                            </option>
+                            <option class="Fri">
+                                Friday
+                            </option>
+                        </select>
+                        <select class="Time">
+                            <option class="Ten">
+                                10:00
+                            </option>
+                            <option class="Eleven">
+                                11:00
+                            </option>
+                            <option class="Twelve">
+                                12:00
+                            </option>
+                            <option class="Thirteen">
+                                13:00
+                            </option>
+                            <option class="Fourteen">
+                                14:00
+                            </option>
+                            <option class="Fifteen">
+                                15:00
+                            </option>
+                            <option class="Sixteen">
+                                16:00
+                            </option>
+                            <option class="Seventeen">
+                                17:00
+                            </option>
+                            <option class="Eighteen">
+                                18:00
+                            </option>
+                        </select>
+                    </div>
+                    <div class="button">
+                        <a href="index.html">Cancel</a>
+                        <button type="submit" class="submit">Create</button>
+                        <div class="out"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <table border="1" cellspacing="0" cellpadding="15" width="90%" height="130">
+        <tr id="one">
+            <th>Time</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <th>10:00</th>
+            <th class="Mon10"></th>
+            <th class="Tue10"></th>
+            <th class="Wed10"></th>
+            <th class="Thu10"></th>
+            <th class="Fri10"></th>
+        </tr>
+        <tr>
+            <th>11:00</th>
+            <th class="Mon11"></th>
+            <th class="Tue11"></th>
+            <th class="Wed11"></th>
+            <th class="Thu11"></th>
+            <th class="Fri11"></th>
+        </tr>
+        <tr>
+            <th>12:00</th>
+            <th class="Mon12"></th>
+            <th class="Tue12"></th>
+            <th class="Wed12"></th>
+            <th class="Thu12"></th>
+            <th class="Fri12"></th>
+        </tr>
+        <tr>
+            <th>13:00</th>
+            <th class="Mon13"></th>
+            <th class="Tue13"></th>
+            <th class="Wed13"></th>
+            <th class="Thu13"></th>
+            <th class="Fri13"></th>
+        </tr>
+        <tr>
+            <th>14:00</th>
+            <th class="Mon14"></th>
+            <th class="Tue14"></th>
+            <th class="Wed14"></th>
+            <th class="Thu14"></th>
+            <th class="Fri14"></th>
+        </tr>
+        <tr>
+            <th>15:00</th>
+            <th class="Mon15"></th>
+            <th class="Tue15"></th>
+            <th class="Wed15"></th>
+            <th class="Thu15"></th>
+            <th class="Fri15"></th>
+        </tr>
+        <tr>
+            <th>16:00</th>
+            <th class="Mon16"></th>
+            <th class="Tue16"></th>
+            <th class="Wed16"></th>
+            <th class="Thu16"></th>
+            <th class="Fri16"></th>
+        </tr>
+        <tr>
+            <th>17:00</th>
+            <th class="Mon17"></th>
+            <th class="Tue17"></th>
+            <th class="Wed17"></th>
+            <th class="Thu17"></th>
+            <th class="Fri17"></th>
+        </tr>
+        <tr>
+            <th>18:00</th>
+            <th class="Mon18"></th>
+            <th class="Tue18"></th>
+            <th class="Wed18"></th>
+            <th class="Thu18"></th>
+            <th class="Fri18"></th>
+        </tr>
+    </table>
+</body>
+
+</html>
