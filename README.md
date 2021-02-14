@@ -1,1 +1,0 @@
-# Ciklum-JavaScript-Internship
